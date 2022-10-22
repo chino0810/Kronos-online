@@ -1,0 +1,140 @@
+/*リセット*/
+body,h1,h2,h3,h4,h5,h6,div,p,ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img{
+    vertical-align: top;
+}
+/*共通*/
+body {
+    background-color: #ebecee;
+}
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ue {
+    display: flex;
+    
+}
+h2{
+    font-size: 50px;
+    color: #29292b;
+    letter-spacing: 0.1em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight : 300;
+}
+
+h3{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+section .warp {
+    justify-content : center;
+
+}
+.summary .caption{
+    margin-bottom: 36px;
+    font-size: 22px;
+    color:rgb(0, 0, 0);
+    line-height: 1.8;
+}
+.map .map-title {
+    margin-bottom: 26px;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+}
+.map table th{
+    padding-top: 1px;
+    width: 300px;
+    text-align: left;
+}
+.map table td {
+    width: 75px;
+    text-align: right;
+    border-bottom: 1px solid rgb(55, 122, 248);
+    vertical-align: bottom;
+
+}
+ .contens-img{
+    width: 348px;
+ }
+ .contens-img img{
+    width: 100%;
+ }
+
+/*ヘッダー*/
+header .ue {
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+header nav ul{
+    display: flex;
+    margin-right: 45px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+header nav ul li {
+    margin-right: 45px;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 00.1em;
+}
+header nav ul li:last-of-type {
+    margin-right: 0;
+}
+
+/*ヒーロー*/
+.hero {
+    position: relative;
+}
+.hero img {
+    width: 100%;
+}
+.hero .catch-copy {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 35px;
+    color: #fff;
+
+}   
+
+/*kronos*/
+.kronos {
+    padding: 112px 0;
+
+    background-color: #eeedeb;
+}
+
+.kronos h2 {
+    padding-left: 30px;
+    border-left: 4px solid #0b3029;
+}
+.kronos .summary {
+    margin-right: 100px;
+}
+
+/*フッター*/
+footer {
+    padding: 16px 0;
+    background-color:rgb(8, 83, 153);
+    color:rgb(255, 255, 255);
+    text-align: center;
+
+}
